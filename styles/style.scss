@@ -127,3 +127,37 @@ body {
 /**
  * App code
  */
+
+ .searchBar {
+    margin: 10%;
+ }
+
+
+ .giphyView {
+    margin: auto;
+    width: 33%;
+    text-align: center;
+
+    .interactive {
+        text-align: left;
+
+        form {
+            display: inline-block;
+            width: 87%;
+        }
+
+        .heart {
+            margin: 2%;
+        }
+
+        .comment {
+            width: 88%;
+            display: inline-block;
+        }
+    }
+
+    img {
+        width: 100%;
+        box-shadow: 10% 10% 10% grey;
+    }
+ }
